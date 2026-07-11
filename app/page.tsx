@@ -20,7 +20,7 @@ export default async function Home() {
 
   return (
     <main style={{ padding: 40 }}>
-      <h1>Item List</h1>
+      <h1>Item List-SSR</h1>
       <ul>
         {items.map((item) => (
           <li key={item.id}>{item.name}</li>
